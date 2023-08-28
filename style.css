@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+   
+}
+.container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.board{
+    margin-top:30px;
+    display:grid;
+    grid-template-columns:repeat(3,80px);
+    grid-template-rows:repeat(3,80px) ;
+}
+.box{
+    border:1px solid #FFFF;
+    font-weight: 700;
+}
+
+.chancebox{
+    margin-top:20px;
+    background-color:black;
+    color:white;
+    
+
+}
+#output{
+    margin-top:20px;
+}
